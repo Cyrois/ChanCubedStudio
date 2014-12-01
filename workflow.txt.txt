@@ -1,0 +1,2 @@
+1. install github
+2. instlal compass and sass

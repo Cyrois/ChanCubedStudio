@@ -2,51 +2,19 @@
 <html>
 	<head>
 		<title>Calvin Chan</title>
-		<style type="text/css">
-			#header {
-				width: inherit;
-				height: 150px;
-				background-color: teal;
-				border-bottom: thick solid black;
-			}
-			#main {
-				width: inherit;
-				height: 700px;
-				text-align: center;
-			}
-			#footer {
-				width: inherit;
-				min-height: 100px;
-				background-color: grey;
-				border-top: thick solid black;
-			}
-			.middleDiv {
-				position: relative;
-				width: 1000px;
-				height: 150px;
-				text-align:center;
-				margin: auto;
-				background-color: red;
-			}
-			.nav {
-				text-align: center;
-				position: absolute;
-				bottom: 0;
-				right: 0;
-			}
-		</style> 
+		<link href="sass/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<div id="header">
 			<div class="middleDiv">
-				<table class="nav">
-					<tr>
-						<td>Home<td>
-						<td>About<td>
-						<td>Projects<td>
-						<td>Contact<td>
-					<tr>
-				</table>
+				<nav>
+					<ul class="nav">
+						<li>Home</li>
+						<li>About</li>
+						<li>Projects</li>
+						<li>Contact</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 		<div id="main">
